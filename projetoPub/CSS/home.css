@@ -1,0 +1,126 @@
+
+/*GERAL*/
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family:  Helvetica, Arial, sans-serif;
+    background-color: #161616;
+    color: #fff;
+    padding: 0;
+}
+
+
+
+
+/*NAVEGAÇÃO*/
+nav{
+    background-color: #3b3b3b;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;   
+}
+
+li {
+    
+    display: inline-block;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+a:hover{
+    color: #0079d0;
+}
+
+
+
+
+
+/*HEADER*/
+
+header{
+    position: relative;
+}
+
+header{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+
+/*IMAGEM*/
+header img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+
+
+/*VIDEO*/
+video{
+    width: 100%;
+}
+
+
+/*O LUGAR e DRINKS*/
+.mainSection{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px; 
+}
+
+.sombra{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.65)
+}
+.lugarSection{
+    background-image: url(/projetoPub/images/bar_interior.jpg);
+}
+.drinkSection{
+    background-image: url(/projetoPub/images/drinks_background.jpg);
+}
+.drinkimg{
+    max-width: 30%;
+    margin-top: -30px;
+}
+.lugar{
+    text-align: center;
+    font-size: 30px;
+}
+.lugar-texto{
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+/*FOOTER*/
+
+th{
+    text-align: left;
+}
+
+table{
+    padding: 15px;
+    width: 100%;
+}
